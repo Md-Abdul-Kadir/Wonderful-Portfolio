@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.nav_a{
+    text-decoration: none;
+    color: rgb(248, 248, 248);
+}
+a{
+    text-decoration: none;
+}
+.name{
+    font-size: 50px;
+    font-weight: 400;
+    color: crimson;
+}
+h1{
+    font-size: 50px;
+    font-weight: 400;
+}
+h3{
+    font-size: 25px;
+    font-weight: 200;
+    color: rgb(0, 0, 0);
+}
+ul{
+    list-style: none;
+}
+section{
+    display: flex;
+    width: 100%;
+}
+nav{
+    
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10%;
+    background-color: rgb(0, 0, 0);
+}
+nav ul {
+    display: flex;
+}
+nav ul li{
+    padding: 0px 30px;
+   
+}
+.navi{
+    width: 100%;
+}
+
+.bth1{
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+.btn2{
+    padding: 5px 20px;
+    background-color: black;
+    color: rgb(248, 248, 248);
+    border-radius: 10px;
+}
+.top-section{
+    padding: 10% 8%;
+    width: 50%;
+}
+.top-banner{
+    background-image: url(images/top-banner.jpg);
+}
+.akash-pic{
+    padding-top: 20%;
+    padding-right: 15%;
+    margin: 0 auto;
+   
+    width: 75%;
+
+}
+.navigation{
+    display: relative;
+}
+.about{
+    display: flex;
+    display:absolute;
+    padding: 20px 30px;
+    margin: -90px 10%;
+    border-radius: 50px;
+    background-color: white;
+    box-shadow: 10px 10px 40px rgb(158, 154, 154);
+}
+.about-pic{
+  
+    padding: 5% 2%;
+    width: 60%;
+}
+.about-text{
+    width: 90%;
+}
+.experience-text{
+    padding: 5% 8%;
+    text-align: center;
+}
+
+.items{
+    width: 30%;
+    padding: 2%;
+    text-align: center;
+    text-align: justify;
+    margin: 5%;
+    margin-bottom: 10%;
+    color: rgb(248, 248, 248);
+    background-color: rgb(7, 1, 1);
+    box-shadow: 10px 10px 30px rgb(197, 196, 196);
+}
+.item-head{
+    text-align: center;
+}
+p{
+    font-weight: 100;
+}
+footer
+{
+    text-align: center;
+    padding: 30px 8%;
+    color: white;
+    background-color: black;
+
+}
